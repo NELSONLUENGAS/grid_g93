@@ -1,0 +1,138 @@
+{
+	"estructura": {
+		"header": {
+			"logo": "Delicious Bites",
+			"navegación": [
+				{ "etiqueta": "Inicio", "href": "/" },
+				{ "etiqueta": "Menú", "href": "/menu" },
+				{ "etiqueta": "Sobre Nosotros", "href": "/about" },
+				{ "etiqueta": "Contacto", "href": "/contact" }
+			]
+		},
+		"distribución": {
+			"sidebar": {
+				"título": "Categorías",
+				"elementos": [
+					{ "nombre": "Entradas", "icono": "fa-utensils" },
+					{ "nombre": "Platos Principales", "icono": "fa-hamburger" },
+					{ "nombre": "Postres", "icono": "fa-ice-cream" },
+					{ "nombre": "Bebidas", "icono": "fa-wine-glass-alt" }
+				]
+			},
+			"main": {
+				"grid": {
+					"columnas": 3,
+					"espacio": "1rem",
+					"contenedorId": "grilla-menu"
+				}
+			}
+		},
+		"footer": {
+			"dirección": "Calle Sabor 123, Ciudad Gastronómica",
+			"teléfono": "(123) 456-7890",
+			"redesSociales": [
+				{
+					"plataforma": "Facebook",
+					"href": "https://facebook.com/deliciousbites"
+				},
+				{
+					"plataforma": "Instagram",
+					"href": "https://instagram.com/deliciousbites"
+				},
+				{
+					"plataforma": "Twitter",
+					"href": "https://twitter.com/deliciousbites"
+				}
+			]
+		}
+	},
+	"colores": {
+		"secciones": {
+			"header": { "fondo": "#D84315", "texto": "#FFFFFF" },
+			"sidebar": { "fondo": "#FFF8E1", "texto": "#37474F" },
+			"main": { "fondo": "#FFFFFF", "texto": "#212121" },
+			"footer": { "fondo": "#37474F", "texto": "#FFFFFF" }
+		},
+		"categorías": {
+			"Entradas": {
+				"fondo": "#FF8A65",
+				"texto": "#FFFFFF",
+				"icono": "#BF360C"
+			},
+			"Platos Principales": {
+				"fondo": "#66BB6A",
+				"texto": "#FFFFFF",
+				"icono": "#1B5E20"
+			},
+			"Postres": { "fondo": "#EC407A", "texto": "#FFFFFF", "icono": "#880E4F" },
+			"Bebidas": { "fondo": "#26C6DA", "texto": "#FFFFFF", "icono": "#006064" }
+		},
+		"botones": {
+			"btnAgregar": {
+				"fondo": "#D84315",
+				"texto": "#FFFFFF"
+			},
+			"btnDetalles": {
+				"fondo": "#37474F",
+				"texto": "#FFFFFF"
+			}
+		},
+		"card": {
+			"fondo": "#F9F9F9",
+			"texto": "#212121"
+		}
+	},
+	"plantillaCard": {
+		"claseContenedor": "card",
+		"colorFondo": "#F9F9F9",
+		"elementos": [
+			{
+				"tipo": "imagen",
+				"propiedad": "imagenUrl",
+				"clase": "card__imagen"
+			},
+			{
+				"tipo": "título",
+				"propiedad": "nombre",
+				"clase": "card__titulo"
+			},
+			{
+				"tipo": "descripción",
+				"propiedad": "descripción",
+				"clase": "card__descripcion"
+			},
+			{
+				"tipo": "precio",
+				"propiedad": "precio",
+				"clase": "card__precio"
+			},
+			{
+				"tipo": "badgeCategoría",
+				"propiedad": "categoría",
+				"clase": "card__badge",
+				"mostrarIcono": true
+			},
+			{
+				"tipo": "botones",
+				"elementos": [
+					{
+						"tipo": "btnAgregar",
+						"texto": "Agregar al carrito",
+						"icono": "fa-shopping-cart",
+						"clase": "btn btn--agregar",
+						"colorFondo": "#D84315",
+						"colorTexto": "#FFFFFF"
+					},
+					{
+						"tipo": "btnDetalles",
+						"texto": "Ver detalles",
+						"icono": "fa-info-circle",
+						"clase": "btn btn--detalles",
+						"colorFondo": "#37474F",
+						"colorTexto": "#FFFFFF"
+					}
+				]
+			}
+		]
+	}
+}

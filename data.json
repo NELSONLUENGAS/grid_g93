@@ -1,0 +1,124 @@
+{
+	"menuItems": [
+		{
+			"id": 1,
+			"nombre": "Bruschetta Italiana",
+			"descripción": "Pan de campo a la parrilla con tomate fresco, albahaca y ajo.",
+			"precio": 6.5,
+			"imagenUrl": "https://example.com/images/bruschetta.jpg",
+			"categoría": "Entradas"
+		},
+		{
+			"id": 2,
+			"nombre": "Sopa del Día",
+			"descripción": "Preparación casera que cambia según la temporada, acompaña con pan rústico.",
+			"precio": 5.0,
+			"imagenUrl": "https://example.com/images/sopa_del_dia.jpg",
+			"categoría": "Entradas"
+		},
+		{
+			"id": 3,
+			"nombre": "Ensalada César",
+			"descripción": "Lechuga romana, croutons, queso parmesano y aderezo César casero.",
+			"precio": 8.0,
+			"imagenUrl": "https://example.com/images/ensalada_cesar.jpg",
+			"categoría": "Entradas"
+		},
+		{
+			"id": 4,
+			"nombre": "Calamares Fritos",
+			"descripción": "Anillas de calamar rebozadas y fritas, acompañadas de alioli.",
+			"precio": 9.5,
+			"imagenUrl": "https://example.com/images/calamares.jpg",
+			"categoría": "Entradas"
+		},
+		{
+			"id": 5,
+			"nombre": "Pizza Prosciutto",
+			"descripción": "Base fina con salsa de tomate, mozzarella, jamón serrano y rúcula.",
+			"precio": 12.0,
+			"imagenUrl": "https://example.com/images/pizza_prosciutto.jpg",
+			"categoría": "Platos Principales"
+		},
+		{
+			"id": 6,
+			"nombre": "Lasaña de Carne",
+			"descripción": "Capas de pasta, carne molida, bechamel y queso gratinado.",
+			"precio": 13.5,
+			"imagenUrl": "https://example.com/images/lasana.jpg",
+			"categoría": "Platos Principales"
+		},
+		{
+			"id": 7,
+			"nombre": "Filete de Salmón",
+			"descripción": "Salmón a la plancha con salsa de limón y verduras salteadas.",
+			"precio": 18.0,
+			"imagenUrl": "https://example.com/images/salmon.jpg",
+			"categoría": "Platos Principales"
+		},
+		{
+			"id": 8,
+			"nombre": "Pollo al Ajillo",
+			"descripción": "Trozos de pollo dorados con ajo, vino blanco y aceite de oliva.",
+			"precio": 14.0,
+			"imagenUrl": "https://example.com/images/pollo_ajillo.jpg",
+			"categoría": "Platos Principales"
+		},
+		{
+			"id": 9,
+			"nombre": "Tarta de Queso",
+			"descripción": "Clásica tarta cremosa con base de galleta y coulis de frutos rojos.",
+			"precio": 7.5,
+			"imagenUrl": "https://example.com/images/tarta_queso.jpg",
+			"categoría": "Postres"
+		},
+		{
+			"id": 10,
+			"nombre": "Brownie con Helado",
+			"descripción": "Brownie de chocolate caliente servido con helado de vainilla.",
+			"precio": 7.0,
+			"imagenUrl": "https://example.com/images/brownie.jpg",
+			"categoría": "Postres"
+		},
+		{
+			"id": 11,
+			"nombre": "Crema Catalana",
+			"descripción": "Natillas con un ligero toque de canela y piel de cítrico, gratinadas.",
+			"precio": 6.8,
+			"imagenUrl": "https://example.com/images/crema_catalana.jpg",
+			"categoría": "Postres"
+		},
+		{
+			"id": 12,
+			"nombre": "Profiteroles",
+			"descripción": "Bolas de pasta choux rellenas de crema pastelera y bañadas en chocolate.",
+			"precio": 8.0,
+			"imagenUrl": "https://example.com/images/profiteroles.jpg",
+			"categoría": "Postres"
+		},
+		{
+			"id": 13,
+			"nombre": "Vino Tinto de la Casa",
+			"descripción": "Copa de nuestro vino tinto seleccionado (Cabernet Sauvignon).",
+			"precio": 5.5,
+			"imagenUrl": "https://example.com/images/vino_tinto.jpg",
+			"categoría": "Bebidas"
+		},
+		{
+			"id": 14,
+			"nombre": "Cerveza Artesanal",
+			"descripción": "Botella de 330 ml de cerveza elaborada en la región.",
+			"precio": 6.0,
+			"imagenUrl": "https://example.com/images/cerveza.jpg",
+			"categoría": "Bebidas"
+		},
+		{
+			"id": 15,
+			"nombre": "Limonada Natural",
+			"descripción": "Refrescante limonada hecha con limón fresco y un toque de hierbabuena.",
+			"precio": 4.0,
+			"imagenUrl": "https://example.com/images/limonada.jpg",
+			"categoría": "Bebidas"
+		}
+	]
+}
