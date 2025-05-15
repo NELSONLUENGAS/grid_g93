@@ -45,14 +45,16 @@
 	z-index: 6;
 	top: 20px;
 	right: 20px;
-	display: none;
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+	transform: translate(-100vw, -100vh);
 }
 
 .header_display_nav:focus ~ .nav {
-	display: flex;
+	transform: translate(0%);
 }
 .header_display_nav:focus ~ .header_close_nav {
-	display: flex;
+	transform: translate(0%);
 }
 
 .logo {
@@ -66,7 +68,7 @@
 }
 
 .nav {
-	display: none;
+	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -79,6 +81,8 @@
 	background-color: #bf360c;
 	z-index: 5;
 	height: 100vh;
+	transition: transform 0.5s ease-in-out;
+	transform: translate(0vw, -100vh);
 }
 
 .nav-list {
@@ -95,6 +99,7 @@
 	border-radius: 10px;
 	border-bottom: 2px solid #fff;
 	cursor: pointer;
+	transition: all 0.2s ease-in-out;
 }
 
 .nav-item a {
@@ -110,7 +115,8 @@
 	padding: 20px;
 }
 
-.cart-count {
+.cart-count,
+.cart-count-back {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -120,7 +126,19 @@
 	height: 20px;
 	width: 20px;
 	border-radius: 50%;
+	background-color: #000000;
+	animation: none;
+	opacity: 1;
+}
+
+.cart-count-back {
 	background-color: #37474f;
+	opacity: 1;
+	animation: none;
+	height: 20px;
+	width: 20px;
+	animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+	opacity: 0.75;
 }
 
 .sidebar {
@@ -152,6 +170,7 @@
 	border-radius: 10px;
 	border-bottom: 2px solid #d84315;
 	cursor: pointer;
+	transition: all 0.2s ease-in-out;
 }
 
 .main {
@@ -188,6 +207,7 @@
 .card-img {
 	width: 100%;
 	height: 200px;
+	transition: all 0.3s ease-out;
 }
 .card-img img {
 	width: 100%;
@@ -301,6 +321,7 @@
 		position: static;
 		background-color: transparent;
 		height: auto;
+		transform: translate(0vw);
 	}
 
 	.nav-list {
@@ -310,6 +331,22 @@
 		gap: 15px;
 		justify-content: center;
 		align-items: center;
+	}
+
+	.nav-item:hover {
+		background-color: white;
+		color: #000000;
+		border-bottom: 4px solid #fff;
+		box-shadow: inset 0px 0px 8px #006064;
+		transform: scale(1.05);
+	}
+
+	.sidebar-item:hover {
+		background-color: #d84315;
+		color: white;
+		border-bottom: 4px solid #d84315;
+		transform: scale(1.05) rotate(-5deg);
+		box-shadow: inset 0px 0px 8px #fff8e1;
 	}
 
 	.header_display_nav,
@@ -330,6 +367,10 @@
 		height: 420px;
 	}
 
+	.card-img:hover {
+		transform: scale(1.2);
+	}
+
 	.main {
 		grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 	}
@@ -348,5 +389,13 @@
 
 	.main {
 		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+}
+
+@keyframes ping {
+	75%,
+	100% {
+		transform: scale(2);
+		opacity: 0;
 	}
 }
